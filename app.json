@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Smart Energy Monitor",
+    "slug": "smart-energy-monitor",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./logo.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1a1a"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.smartenergy.monitor"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./logo.png",
+        "backgroundColor": "#1a1a1a"
+      },
+      "package": "com.smartenergy.monitor",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./logo.png"
+    },
+    "plugins": [
+      "expo-notifications"
+    ]
+  }
+}
